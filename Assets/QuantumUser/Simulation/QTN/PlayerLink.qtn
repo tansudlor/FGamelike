@@ -1,0 +1,19 @@
+
+component PlayerLink{
+	PlayerRef Player;
+	
+}
+
+component CharacterStats{
+	AssetRef<CharacterSpec> Spec;
+	[ExcludeFromPrototype]
+	FP Power;
+	
+}
+
+input {
+
+	FPVector2 Direction;
+	button Jump;
+
+}
